@@ -1,43 +1,52 @@
 // TODO: Include packages needed for this application
-
+const fs = require('fs');
+const inquirer = require('inquirer');
 
 // TODO: Create a function to write README file
 
-/*function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (err) => {
+function writeToFile(data) {
+  fs.readFile('index.js', 'utf-8', (err) => {
     if (err) {
-      console.error('Error writing to file:', err);
+      console.error('Error reading index.js:', err);
     } else {
       console.log('README file has been created successfully!');
     }
+
+    fs.writeFile('README.md', data, (err)=> {
+        if (err) {
+            console.log('Error writing to README.md:', err)
+        } else {
+            console.log('README.md file has been created successfully!');
+        }
+    });
   });
 }
-writeToFile('README.md', 'Your README file.');
-*/
 
-const fs = require('fs');
-const inquirer = require('inquirer');
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+        {
+            message: 'What is the title of your project',
+            name: 'title',
+        },
+        {
+            message: 'Give a description of your project',
+            name: 'description',
+        },
+        {
+          message: 'What is your name?',
+          name: 'name',
+        },
+        {
+            message: 'What is your GitHub profile name?',
+            name: 'GitHub',
+        },
+      ];
 
 // Create a prompt
 inquirer
-  .prompt([
-    {
-        message: 'What is the title of your project',
-        name: 'title',
-    },
-    {
-      message: 'What is your name?',
-      name: 'name',
-    },
-    {
-        message: 'What is your GitHub profile name?',
-        name: 'GitHub',
-    },
-  ])
+  .prompt(questions)
   .then((answers) => {
-    // The user's input will be available in the 'answers' object
+    
     const name = answers.name;
     console.log(answers);
 
@@ -71,8 +80,9 @@ inquirer
     
         fs.writeFileSync('index.html', myPortfolio);
         console.log('It is done');
+        writeToFile('README.md');
       });
-  });
+  })
 
 
 
