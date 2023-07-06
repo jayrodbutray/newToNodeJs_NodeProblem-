@@ -87,7 +87,7 @@ inquirer
     const selectedLicense = questions.find((question) => question.name === 'license'
     ).choices.find((choice)=> choice.value ===answers.license);
     if (selectedLicense && selectedLicense.badge) {
-      licenseBadge = `![License](https://img.shields.io/badge/license-${selectedLicense.badge}-blue.svg)`;
+      licenseBadge = `![License](https://img.shields.io/badge/license-${selectedLicense.badge})`;
     }
 
     // Generate the README content using template literals
@@ -125,6 +125,7 @@ ${answers.test}
 
 ## Questions <a name="questions"></a>
 For any questions or concerns regarding this project, please contact me at ${answers.email}.
+
 GitHub Profile: [${answers.questions}](https://github.com/${answers.questions})
 `;
 

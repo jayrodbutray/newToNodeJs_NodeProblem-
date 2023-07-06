@@ -1,7 +1,7 @@
 
-# jared
+# MOM
 
-![License](https://img.shields.io/badge/license-GPL-3.0-blue.svg)
+![License](https://img.shields.io/badge/license-ISC)
 
 ## Table of Contents
 - [Description](#description)
@@ -13,24 +13,25 @@
 - [Questions](#questions)
 
 ## Description <a name="description"></a>
-nice
+Calm,slim, blonde hair and brown eyes
 
 ## Installation <a name="installation"></a>
-put guts inside of a body and put a sould in it
+put a soul in her and make it come alive
 
 ## Usage <a name="usage"></a>
-to do what i want him to do
+she will be my choeffer
 
 ## License <a name="license"></a>
 
-This application is covered under the [GNU GPL v3 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+This application is covered under the [ISC License](https://opensource.org/licenses/ISC).
 
 ## Contributing <a name="contribution"></a>
-donkeys and llamas
+aurora and me
 
 ## Tests <a name="test"></a>
-put him in a volcano
+break her bones and see if she can still move
 
 ## Questions <a name="questions"></a>
 For any questions or concerns regarding this project, please contact me at geraldomania@hotmail.com.
+
 GitHub Profile: [jayrodbutray](https://github.com/jayrodbutray)
