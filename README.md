@@ -1,7 +1,7 @@
 
-# MOM
+# NODE JS
 
-![License](https://img.shields.io/badge/license-ISC)
+![License](https://img.shields.io/badge/license-MIT)
 
 ## Table of Contents
 - [Description](#description)
@@ -13,23 +13,23 @@
 - [Questions](#questions)
 
 ## Description <a name="description"></a>
-Calm,slim, blonde hair and brown eyes
+Coding for coders
 
 ## Installation <a name="installation"></a>
-put a soul in her and make it come alive
+Hit me up online
 
 ## Usage <a name="usage"></a>
-she will be my choeffer
+For future generations
 
 ## License <a name="license"></a>
 
-This application is covered under the [ISC License](https://opensource.org/licenses/ISC).
+This application is covered under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contributing <a name="contribution"></a>
-aurora and me
+Me and Robbert, our mad brain skills
 
 ## Tests <a name="test"></a>
-break her bones and see if she can still move
+Over many, many lightyears
 
 ## Questions <a name="questions"></a>
 For any questions or concerns regarding this project, please contact me at geraldomania@hotmail.com.
